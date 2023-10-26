@@ -5,3 +5,6 @@ Trajectory postprocessing workflow requires the following 2 items:
 2. Dispersion point data in "LONG LAT <etc>" form from the ASTOS Monte-Carlo simulation written into MC_Results.txt
 
 The output is given in the form of .kml data. PNG file for confidence ellipses are generated as well for validation.
+
+<img src="/Postprocessing/Data/Nominal/Ellipse_MC.png" width="500">
+<img src="ML_Visualization.jpg">
