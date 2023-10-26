@@ -7,6 +7,6 @@ Trajectory postprocessing workflow requires the following 2 items:
 The output is given in the form of .kml data. PNG file for confidence ellipses are generated as well for validation.
 
 <p align="middle">
-  <img src="KML_Visualization.jpg" width="550">
-  <img src="/Postprocessing/Data/Nominal/Ellipse_MC.png" width="400"> 
+  <img src="KML_Visualization.jpg" width="450">
+  <img src="/Postprocessing/Data/Nominal/Ellipse_MC.png" width="300"> 
 </p>
