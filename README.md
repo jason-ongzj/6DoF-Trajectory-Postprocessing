@@ -1,4 +1,8 @@
 # ASTOS Pre- and Postprocessing
+The workflows outlined involve Bash and Python scripting. An installation of WSL (on Windows) with the following Python libraries are required:
+- Numpy
+- Scipy
+- Matplotlib
 
 Trajectory postprocessing workflow requires the following 2 items:
 1. Nominal trajectory in "LAT,LONG,ALT" form written into Nominal_Trajectory.csv
