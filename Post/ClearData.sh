@@ -1,10 +1,10 @@
 #!/bin/bash
 
-if [ -z "$(ls -A Postprocessing/Data/Nominal)" ]; then
-	echo "Nominal output folder is empty."
+if [ -z "$(ls -A Postprocessing/Data)" ]; then
+	echo "Ellipse data folder is empty."
 else
-	echo "Not empty, clearing nominal data folder."
-	rm Postprocessing/Data/Nominal/Ellipse*
+	echo "Not empty, clearing ellipse data folder."
+	rm Postprocessing/Data/*
 fi
 
 if [ -z "$(ls -A Postprocessing/Output)" ]; then

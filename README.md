@@ -9,6 +9,6 @@ Nominal_Trajectory.csv file is placed in Postprocessing/Input, while MC_Results.
 Run ./Nominal_Output.sh to generate output data. The output is given in the form of .kml data. PNG file for confidence ellipses are generated as well for validation.
 
 <p align="middle">
-  <img src="KML_Visualization.jpg" width="450">
-  <img src="/Postprocessing/Data/Nominal/Ellipse_MC.png" width="300"> 
+  <img src="Post/KML_Visualization.jpg" width="450">
+  <img src="Post/Postprocessing/Data/Ellipse_MC.png" width="300"> 
 </p>

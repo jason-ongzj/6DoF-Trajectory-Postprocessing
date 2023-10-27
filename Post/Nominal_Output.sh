@@ -15,8 +15,8 @@ python3 ../../Python/GenerateNominalMCPoints.py
 cd ../..
 
 python3 Python/Nominal_Ellipse.py Postprocessing/Input/Nominal_Dispersions.txt MC
-mv *_MC.txt Postprocessing/Data/Nominal
-mv Ellipse_MC.png Postprocessing/Data/Nominal
+mv *_MC.txt Postprocessing/Data
+mv Ellipse_MC.png Postprocessing/Data
 echo ""
 
 cd Postprocessing/Output
@@ -34,15 +34,15 @@ KML_Linestring ../Input/Nominal_Trajectory.csv Nominal_Trajectory.kml Nominal_Tr
 
 # Blue
 KML_LinestringStyle Nominal_Trajectory.kml 5 ffff5500
-KML_Linestring ../Data/Nominal/Ellipse_1Sigma_MC.txt Nominal_Trajectory.kml Ellipse_1Sigma
+KML_Linestring ../Data/Ellipse_1Sigma_MC.txt Nominal_Trajectory.kml Ellipse_1Sigma
 
 # Turqoise
 KML_LinestringStyle Nominal_Trajectory.kml 5 ffd9a201
-KML_Linestring ../Data/Nominal/Ellipse_2Sigma_MC.txt Nominal_Trajectory.kml Ellipse_2Sigma
+KML_Linestring ../Data/Ellipse_2Sigma_MC.txt Nominal_Trajectory.kml Ellipse_2Sigma
 
 # Light Blue
 KML_LinestringStyle Nominal_Trajectory.kml 5 fffcd355
-KML_Linestring ../Data/Nominal/Ellipse_3Sigma_MC.txt Nominal_Trajectory.kml Ellipse_3Sigma
+KML_Linestring ../Data/Ellipse_3Sigma_MC.txt Nominal_Trajectory.kml Ellipse_3Sigma
 KML_Closing Nominal_Trajectory.kml
 echo "Done."
 echo ""
