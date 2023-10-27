@@ -1,4 +1,4 @@
-# 6DoF-Trajectory-Postprocessing
+# ASTOS Pre- and Postprocessing
 
 Trajectory postprocessing workflow requires the following 2 items:
 1. Nominal trajectory in "LAT,LONG,ALT" form written into Nominal_Trajectory.csv
