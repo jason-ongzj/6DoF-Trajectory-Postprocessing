@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run ./OAT_Input.sh <input_var>
-# E.g. ./OAT_Input.sh OAT_Variables_3Sigma.txt
+# E.g. ./OAT_Input.sh OAT_Variables_3Sigma.txt 3
 # Note: Input script always takes reference from input_nominal.tops file
 #       since input_nominal contains default configuration.
 
